@@ -1,8 +1,8 @@
-//1945515b6989fdbd49e864f7c2269d89
+
 let history = JSON.parse(localStorage.getItem("history")) || [];
 let data;
 let temp;
-var apiKey = "1945515b6989fdbd49e864f7c2269d89";
+var apiKey = "apikey";
 const apiUrl =
     "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const searchBox = document.querySelector(".cityn");
