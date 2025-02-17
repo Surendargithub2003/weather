@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3N8U5YhLdqgCCVVcc3iIcK-7iWLUWnY0&callback=initMap1"
+            async
+            defer
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="conversion">
+            <button class="tempbtn" onclick="tempBtn()">Temp in °F</button>
+            <button class="windbtn" onclick="windBtn()">Wind Speed in m/s</button>
+        </div>
+        <div class="container">
+            <div id="map"></div>
+            <div class="card">
+                <!-- <input class="api" type="text" placeholder="Enter api key" spellcheck="false">
+                <button class="apibtn">Get Api</button> -->
+
+                <div class="search">
+                    <input
+                        id="input"
+                        class="cityn"
+                        type="text"
+                        placeholder="Enter city name"
+                        spellcheck="false"
+                    />
+                    <div class="searchb">
+                        <button class="b" onclick="searchBtn()">
+                            <img id="search" src="img/search.png" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="weather">
+                    <img src="img/rain.png" class="weather-icon" alt="" />
+                    <h1 class="temp">30°C</h1>
+                    <h2 class="city">New York</h2>
+                    <div class="details">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p class="humidity">Humidity</p>
+                        </div>
+                        <div>
+                            <p class="wind">15 km/hr</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Previous-Search">
+                <h2>Previous Search</h2>
+                <ul id="historyList"></ul>
+            </div>
+    
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

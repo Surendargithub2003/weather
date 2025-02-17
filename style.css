@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 500px;
+    width: 40%;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+body {
+    background: linear-gradient(
+        to right,
+        rgb(131, 131, 253),
+        rgb(131, 233, 131)
+    );
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: rgb(255, 255, 255);
+    margin: 0px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 5px 10px rgb(135, 182, 201);
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+}
+#search {
+    height: 25px;
+    background: none;
+}
+.b {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 425px;
+    top: 126px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#input {
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 234);
+    box-shadow: 2px 2px rgb(165, 252, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.city {
+    margin-bottom: 50px;
+}
+
+.details {
+    display: flex;
+}
+
+.humidity {
+    margin-right: 100px;
+    margin-left: 70px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.conversion {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    margin-left: 68%;
+}
+.tempbtn {
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(255, 101, 101);
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    color: rgb(255, 255, 255);
+}
+
+.windbtn {
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(255, 101, 101);
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    color: rgb(255, 255, 255);
+}
+
+.Previous-Search
+{
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: rgb(255, 255, 255);
+    margin: 0px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 5px 10px rgb(135, 182, 201);
+    margin-left: 10px;
+
+}
+
+#historyList
+{
+    padding: 10px;
+}
